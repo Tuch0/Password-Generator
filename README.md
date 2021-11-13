@@ -22,7 +22,7 @@ La herramienta comieza desplegandote un menu que te indica las siguienetes opcio
 A continuación se desplegara un seleccionados , en el cual tu introduces el modo que deseas usar ,  despues introduces la longitud de la contraseña , y te la imprime por pantalla
 
 ### Versión
-Acualmente esta en la versión "v1.0"
+Acualmente esta en la versión "v1.3"
 
 #### Autor
 El autor de la herramienta es @Tuch0
