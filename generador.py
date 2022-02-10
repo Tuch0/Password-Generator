@@ -46,7 +46,9 @@ def menu():
     time.sleep(0.5)
     print("\n3 -> Letras y Números")
     time.sleep(0.5)
-    print("\n4 -> Salir")
+    print("\n4 -> Letras , Números y Símbolos")
+    time.sleep(0.5)
+    print("\n5 -> Salir")
     time.sleep(0.5)
 
 menu()
@@ -60,6 +62,8 @@ elif option == 2:
 elif option == 3:
     f.letras_numeros()
 elif option == 4:
+    f.letras_numero_simbolos()
+elif option == 5:
     exit
 else:
     print('El dato introducido es inválido , prueba de nuevo solo introduciendo números enteros')
