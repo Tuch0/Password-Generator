@@ -56,3 +56,12 @@ def letras_numeros():
     a = a.join([choice(valores) for i in range(longitud)])
     white()
     print(a)
+
+def letras_numero_simbolos():
+    purple()
+    longitud = int(input('Introduce la longitud de la contrasñea: '))
+    valores = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ0123456789!$%&'()*+-./0123456789:;=?@[\]^_`{|}~"
+    a = ""      
+    a = a.join([choice(valores) for i in range(longitud)])
+    white()
+    print(a)
